@@ -3,6 +3,9 @@ import noop from "lodash/noop";
 
 type MenuIds = "first" | "second" | "last";
 type Menu = { id: MenuIds; title: string };
+type MenuSelected = {};
+type MenuAction = {};
+type SelectedMenu = { id?: string };
 
 // Додати тип Menu Selected
 
